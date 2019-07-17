@@ -1,4 +1,4 @@
- Copyright (C) 2018 The LineageOS Project
+ Copyright (C) 2019 Potato Open Sauce Project
  
   Device configuration for Xiaomi Mi A2 Lite
  =========================================
