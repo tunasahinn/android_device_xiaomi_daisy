@@ -21,11 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
  # Inherit from daisy device
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
- # Inherit some common Potato stuff.	
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+ # Inherit some common dot stuff.	
+$(call inherit-product, vendor/do/config/common.mk)
 
  # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := potato_daisy
+PRODUCT_NAME := dot_daisy
 PRODUCT_DEVICE := daisy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI A2 Lite
@@ -42,3 +42,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := "xiaomi/daisy/daisy_sprout:9/PKQ1.180917.001/V10.0.9.0.PDLMIXM:user/release-keys"
 
 TARGET_VENDOR := Xiaomi
+
+# Some dot configs
+TARGET_BOOT_ANIMATION_RES := 1080
