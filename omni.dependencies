@@ -1,0 +1,16 @@
+/[
+ {
+   "repository": "LineageOS/android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings"
+ },
+ {
+   "repository": "android_vendor_qcom_opensource_commonsys",
+   "target_path": "vendor/qcom/opensource/commonsys"
+ },
+ {
+   "repository": "android_vendor_qcom_opensource_interfaces",
+   "target_path": "vendor/qcom/opensource/interfaces"
+ },
+ {
+   "repository": "LineageOS/android_hardware_qcom_bootctrl",
+   "target_path": "hardware/qcom/bootctrl"
