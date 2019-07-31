@@ -1,4 +1,4 @@
-a#
+#
 # Copyright 2019 The Android Open Source Project
 # Copyright 2019 The LineageOS Project
 #
