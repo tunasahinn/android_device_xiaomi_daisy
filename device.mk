@@ -115,10 +115,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
 
-# Telephony
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 # Update engine
 PRODUCT_PACKAGES += \
     brillo_update_payload \
