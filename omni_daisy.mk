@@ -21,11 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
  # Inherit from daisy device
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
- # Inherit some common dot stuff.	
-$(call inherit-product, vendor/dot/config/common.mk)
+ # Inherit some common omnirom stuff.	
+$(call inherit-product, vendor/omni/config/common.mk)
 
  # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_daisy
+PRODUCT_NAME := omni_daisy
 PRODUCT_DEVICE := daisy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI A2 Lite
@@ -43,5 +43,5 @@ BUILD_FINGERPRINT := "xiaomi/daisy/daisy_sprout:9/PKQ1.180917.001/V10.0.9.0.PDLM
 
 TARGET_VENDOR := Xiaomi
 
-# Some dot configs
+# Some omni configs
 TARGET_BOOT_ANIMATION_RES := 1080
