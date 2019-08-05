@@ -1,0 +1,2 @@
+allow init debugfs:dir mounton;
+allow init oemfs:dir mounton;
