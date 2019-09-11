@@ -98,10 +98,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/keylayout/uinput-goodix.kl:system/usr/keylayout/uinput-goodix.kl
 
-# LiveDisplay HAL
-PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service-sdm
-
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles_V1_0.xml:system/etc/media_profiles_V1_0.xml
