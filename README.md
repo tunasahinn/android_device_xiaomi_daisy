@@ -1,4 +1,4 @@
- Copyright (C) 2019 Potato Open Sauce Project
+ Copyright (C) 2019 Droid On Time ROM
  
   Device configuration for Xiaomi Mi A2 Lite
  =========================================
