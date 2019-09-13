@@ -52,6 +52,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# ThermalController app
+PRODUCT_PACKAGES += \
+    ThermalController
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@4.0 \
