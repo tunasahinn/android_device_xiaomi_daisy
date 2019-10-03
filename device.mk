@@ -71,7 +71,7 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Camera2
 
 # Device init scripts
 PRODUCT_PACKAGES += \
