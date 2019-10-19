@@ -36,10 +36,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="daisy_sprout" \
     PRODUCT_NAME="daisy_sprout" \
-    PRIVATE_BUILD_DESC="daisy-user 9 PKQ1.180917.001 V10.0.14.0.PDLMIXM release-keys"
+    PRIVATE_BUILD_DESC="daisy-user 9 PKQ1.180917.001 V10.0.15.0.PDLMIXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop	
-BUILD_FINGERPRINT := "xiaomi/daisy/daisy_sprout:9/PKQ1.180917.001/V10.0.14.0.PDLMIXM:user/release-keys"
+BUILD_FINGERPRINT := "xiaomi/daisy/daisy_sprout:9/PKQ1.180917.001/V10.0.15.0.PDLMIXM:user/release-keys"
 
 TARGET_VENDOR := Xiaomi
 
