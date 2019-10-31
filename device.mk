@@ -171,3 +171,9 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 PRODUCT_BOOT_JARS += \
     QPerformance \
     UxPerformance
+    
+# Hostapd WiFi Configs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/wifi/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
+    $(LOCAL_PATH)/wifi/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
+    $(LOCAL_PATH)/wifi/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf 
